@@ -6,9 +6,10 @@
 }
 
 body > header {
-    background-color: #3C86F9;
+    background-color: #3C8C30;
     padding: 16px;
-    color: white;
+    color: #F2E9BD;
+    font-size: 26px;
 }
 
 header .container {
@@ -16,6 +17,10 @@ header .container {
     align-items: center;
     justify-content: space-between;
     padding: 2% 4%;
+}
+
+header h1{
+    font-family: 'Rammetto One', cursive;
 }
 header li {
     display: inline;
@@ -25,15 +30,14 @@ header li a{
     display: inline;
     font-weight: bold;
     text-decoration: none;
-    padding-left: 8px;
+    font-size: 18px;;
+    padding-left: 16px;
     color: aliceblue;
+    font-family: 'Rammetto One', cursive;
+    letter-spacing:  1px;
 }
 header li a:hover{
-  
-    
-    text-decoration:underline;
-    padding-left: 8px;
-    color: rgb(213, 249, 237);
+     color: rgb(255, 249, 142);
 }
 
 .container {
@@ -41,82 +45,86 @@ header li a:hover{
     margin: 0 auto;
 }
 
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.articles article img {
-  
-    width: 100%;
-}
-
-.articles article {
-    width: 30%;
-}
-
 section {
     width: 100%;
     padding: 3% 5%;
-   
+
 }
 
-section h2, 
-.articles article {
-    margin-bottom: 16px;
+section h2{
+   color: #3C8C30;
+   font-family: 'Rammetto One', cursive;
 }
-.articles article h3{
+
+section .container{
+    display: flex;
+}
+
+.brands img {
     margin-top: 8px;
-    margin-bottom: 8px;
+    height: 35px;
 }
 
-.articles article a{
-    background-color: #3C86F9;
-    color: white;
-    padding: 8px;
-    display: inline-block;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: 8px;
-    margin-bottom: 8px;
+.brands li {
+    display: inline;
+
 }
 
-#sports .articles article a {
-    background-color: #3c84f9;
+.profile{
+    height: 300px;
+    
 }
 
-#economy .articles article a {
-    background-color: #6137de;
+.box {
+
+    padding: 2% 2%;
 }
 
-#tecnology .articles article a {
-    background-color: #0e9620;
+#sobre {
+    background-color: antiquewhite;
 }
 
-#fun .articles article a {
-    background-color: #966b0e;
+#contato{
+    background-color: #8dd96a20;
 }
 
-
-
-
-.articles article a:hover{
-    text-decoration: underline;
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color: #3C8C30;
+    color: #F2E9BD;
 }
 
-#sports {
-    background-color:rgba(255, 247, 237, 0.832) ;
+form input,button, textarea{
+    display: block;
+    padding: 3px;
+    margin : 6px;
+    width: 100%;
 }
 
-#economy {
-    background-color:rgba(225, 244, 255, 0.832) ;
+form button{
+    background-color: #3C8C30;
+    color: #F2E9BD;
+    border-style: none;
+    border-radius: 3px;
+    height: 40px;
+}
+form button:hover{
+    background-color: #ffd76b;
+    color: #3C8C30; 
 }
 
-#tecnology {
-    background-color:rgba(225, 255, 250, 0.793) ;
+#contato .container {
+    justify-content: space-between;
 }
 
-#fun {
-    background-color:rgba(255, 239, 225, 0.799) ; 
+.social li{
+    display: inline;
+    justify-content: space-between;
+}
+
+.social img{
+    height: 30px;
+    padding: 3px;
+
 }
