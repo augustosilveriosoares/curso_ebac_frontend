@@ -5,41 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body > header {
-    background-color: #3C8C30;
-    padding: 16px;
-    color: #F2E9BD;
-    font-size: 26px;
-}
-
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2% 4%;
-}
-
-header h1{
-    font-family: 'Rammetto One', cursive;
-}
-header li {
-    display: inline;
-
-}
-header li a{
-    display: inline;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 18px;;
-    padding-left: 16px;
-    color: aliceblue;
-    font-family: 'Rammetto One', cursive;
-    letter-spacing:  1px;
-}
-header li a:hover{
-     color: rgb(255, 249, 142);
-}
-
 .container {
     width: 100%;
     margin: 0 auto;
@@ -47,91 +12,74 @@ header li a:hover{
 
 section {
     width: 100%;
-    padding: 3% 5%;
+    padding: 5% 25%;
 
 }
 
-section h2{
-   color: #3C8C30;
-   font-family: 'Rammetto One', cursive;
-   margin-bottom: 10px;
-}
-
-section .container{
-    display: flex;
-}
-
-.brands img {
-    margin-top: 8px;
-    height: 35px;
-}
-
-.brands li {
-    display: inline;
-
-}
-
-.profile{
-    height: 300px;
-    
-}
-
-.box {
-
-    padding: 2% 2%;
-}
-
-#sobre {
-    background-color: antiquewhite;
-}
-
-#contato{
-    background-color: #8dd96a20;
-}
-
-footer{
-    padding: 15px;
+h1, h2,h3, h4, h5, h6{
     text-align: center;
-    background-color: #3C8C30;
-    color: #F2E9BD;
+    color: #360a68;;
 }
+
+form{
+    margin: 0;
+    padding: 0;
+}
+
 
 form input,button, textarea{
     display: block;
-    padding: 3px;
-    margin : 6px;
+    padding: 10px;
+    margin-top: 10px;
     width: 100%;
     resize: none;
 }
 
 form button{
-    background-color: #3C8C30;
-    color: #F2E9BD;
+    background-color: #bc6fff;
+    color: #ffffff;
     border-style: none;
     border-radius: 3px;
-    height: 40px;
+    height: 60px;
     cursor: pointer;
 }
 form button:hover{
-    background-color: #ffd76b;
-    color: #3C8C30; 
+    background-color: #360a68;
+  
 }
 
-#contato .container {
-    justify-content: space-between;
+form input:focus{
+    outline-color: #bc6fff;
 }
 
-.social li{
-    display: inline;
-    justify-content: space-between;
+.input-warning{
+    border-color: #ffa87d;
 }
 
-.social img{
-    height: 30px;
-    padding: 3px;
-
+.input-error{
+    border-color: #ff4e4e;
 }
 
-input:focus, textarea:focus{
-    outline-color: #268b17;
+.input-success{
+    border-color: #50d100;
+}
+
+.bg-warning{
+    background-color: #ffa87d;
+}
+
+.bg-error{
+    background-color: #ff4e4e;
+}
+
+.bg-success{
+    background-color: #50d100;
+}
+
+form p {
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+    display: none;
+    text-align: center;
 }

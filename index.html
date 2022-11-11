@@ -4,75 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEERSHOP - Sua loja de cerejas premuims</title>
-    <link rel="stylesheet" href="./main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+    <title>Exercício HTML -> JS</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header>
+    <section>
         <div class="container">
-            <h1>BEERSHOP</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#sobre" title="Ir para a seção de esportes">SOBRE A LOJA</a>
-                    </li>
-                    <li>
-                        <a href="#contato" title="Ir para a seção de notícias">CONTATO</a>
-                    </li>               
-                </ul>
-            </nav>
-    </div>
-    </header>
-    <section id="sobre">
-        <div class="container">
-            <div class="box">
-             <img  class="profile" src="./imagens/cervejaria.jpg" alt="Fachada de BeerShop no bairro recanto em São Paulo"/>
-            </div>
-             <div class="box">
-             <h2> A BEERSHOP</h2>
-             <p>Mais do que difundir a cultura cervejeira e formar novos apreciadores, queremos ser um alicerce e um apoio para os iniciantes. Como fonte de informações e inspiração para quem busca conhecimento, criamos o blog BEERSHOP, um blog de cervejas especiais, com muito conteúdo e informação para quem quer ficar por dentro das novidades e aprender muito mais sobre essa bebida milenar. Mais do que tudo, nossa missão é tornar o dia dos apaixonados por cerveja, cada vez mais aromático, saboroso e divertido.</p>
-            <ul class="brands">
-                <li><img src="./imagens/leffe.png" alt="Cerveja leffe"/></li>
-                <li><img src="./imagens/guinness.png" alt="Cerveja Guinness"/></li>
-                <li><img src="./imagens/carlsberg-2.png" alt="Cerveja Carlsberg"/></li>
-        
-            </ul>
-        </div>
-        </div>
-     </section>
-     <section id="contato">
-        <div class="container">
-            <div class="box">
-                <h2>Fale conosco</h2>
-                <form>
-                    <input type="text" placeholder="Seu nome" required>
-                    <input type="email" placeholder="Seu e-mail" required>
-                    <input type="tel" placeholder="Seu telefone (opcional)">
-                    <textarea placeholder="Sua mensagem" required></textarea>
-                    <button type="submit">Enviar</button>
-
-            </div>
-            <div class="box">
-                <h2>Siga-nos</h2>
-                <ul class="social">
-                    <li><a href="#"><img src="./imagens/instagram.png" alt="Siga-nos no instagram"></a></li>
-                    <li><a href="#"><img src="./imagens/facebook.png" alt="Siga-nos no Facebook"></a></li>
-                    <li><a href="#"><img src="./imagens/youtube.png" alt="Siga-nos no Youtube"></a></li>
-                </ul>
-            </div>
-            <div class="box">
-                <h2>Encontre-nos</h2>
-                <p>Rua das Alamedas, 158<br>Centro, São Paulo<br>CEP 99.999-000</p>
+            <div>
+                <h2>Exercício HTML -> JS</h2>
+                <h4>Verifica números</h4>
+                <form id="frmVerifica">
+                    <input id="a"  type="number" placeholder="Valor para (A)" required>
+                    <input id="b" type="number" placeholder="Valor para (B)" required>
+                    <button id="submit" type="submit">Enviar</button>
+                    <p id="msg"  ></p>
+                </form>
             </div>
         </div>
      </section>
-     <footer>
-        <p>BEERSHOP &copy;</p>
-     </footer>
-    
-
+     <script src="./main.js"></script>
 </body>
 </html>
