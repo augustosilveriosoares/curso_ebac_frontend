@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 224, 224);
 }
 
 .container {
@@ -12,74 +13,70 @@
 
 section {
     width: 100%;
-    padding: 5% 25%;
+    padding: 10% 25%;
 
 }
 
-h1, h2,h3, h4, h5, h6{
+h1{
     text-align: center;
-    color: #360a68;;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 form{
-    margin: 0;
-    padding: 0;
+    margin-top: 56px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
-form input,button, textarea{
-    display: block;
+form input{
+
+    background-color: white;
+    font-size: 22px;
     padding: 10px;
-    margin-top: 10px;
-    width: 100%;
-    resize: none;
+    border : 1px solid #7d7d7d;
+    width: 65%;
 }
+
 
 form button{
-    background-color: #bc6fff;
-    color: #ffffff;
-    border-style: none;
-    border-radius: 3px;
+    background-color: transparent;
+    color: #404040;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
     height: 60px;
     cursor: pointer;
+    width: 30%;
 }
 form button:hover{
-    background-color: #360a68;
+    background-color: #d7d7d7;
   
 }
 
 form input:focus{
-    outline-color: #bc6fff;
+    outline-color: #393939;
 }
 
-.input-warning{
-    border-color: #ffa87d;
+ul {
+    margin: 5% auto;
+    width: 50%;
 }
 
-.input-error{
-    border-color: #ff4e4e;
+.item  {
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.input-success{
-    border-color: #50d100;
+.clicked {
+    text-decoration: line-through;
 }
 
-.bg-warning{
-    background-color: #ffa87d;
-}
-
-.bg-error{
-    background-color: #ff4e4e;
-}
-
-.bg-success{
-    background-color: #50d100;
-}
-
-form p {
-    margin-top: 10px;
-    padding: 20px;
-    color: white;
-    display: none;
-    text-align: center;
+ul li:hover{
+    font-size: 21px;
+ 
 }
