@@ -1,9 +1,9 @@
-$('form').on('submit',function(e){
-    e.preventDefault();
-   $('#lista').append( $('<li class="item"> ' + $('form input').val() +' </li>').hide().fadeIn(500));
-   $('form input').val('');
-})
+$(document).ready(function(){
 
-$("ul").on("click", "li", function(e){
-    $(this).addClass('clicked');
-});
+   
+
+    console.log('teste');
+    $('#cep').mask('00000-000');
+    $('#telefone').mask('(00) 00000-0000');
+    $('#cpf').mask('000.000.000-00', {reverse: true});
+  });

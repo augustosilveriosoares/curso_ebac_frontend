@@ -24,10 +24,9 @@ h1{
 }
 
 form{
-    margin-top: 56px;
+    margin-top: 26px;
     justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
+  
 }
 
 
@@ -37,7 +36,8 @@ form input{
     font-size: 22px;
     padding: 10px;
     border : 1px solid #7d7d7d;
-    width: 65%;
+    width: 100%;
+    margin-top: 12px;
 }
 
 
@@ -49,7 +49,8 @@ form button{
     border: 2px solid black;
     height: 60px;
     cursor: pointer;
-    width: 30%;
+    width: 100%;
+    margin-top: 12px;
 }
 form button:hover{
     background-color: #d7d7d7;
@@ -60,23 +61,3 @@ form input:focus{
     outline-color: #393939;
 }
 
-ul {
-    margin: 5% auto;
-    width: 50%;
-}
-
-.item  {
-    padding: 3px;
-    font-size: 20px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.clicked {
-    text-decoration: line-through;
-}
-
-ul li:hover{
-    font-size: 21px;
- 
-}

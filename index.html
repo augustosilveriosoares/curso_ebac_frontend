@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício JQuery</title>
+    <title>Exercício Plugin JQuery</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <section>
         <div class="container">
             <div>
-                <h1>Lista de Tarefas</h2>
+                <h1>Cadastro</h2>
                 <form id="form">
-                    <input id="tarefa"  type="text" placeholder="Nome da Tarefa" required>
-                    <button id="submit" type="submit">Cadastrar</button>
-                    <p id="msg"  ></p>
+                    <input type="text"  id="nomeCompleto"  placeholder="Nome Completo" required>
+                    <input type="email" id="email" placeholder="Seu melhor email" required>
+                    <input type="text" id="telefone" placeholder="Seu Whatsapp" required>
+                    <input type="text" id="cpf" placeholder="Seu CPF" name="cpf" required>
+                    <input type="text" id="endereco" placeholder="Seu endreço completo" required>
+                    <input type="text" id="cep" placeholder="Seu CEP" required>
+                    <button id="submit" type="submit">Enviar</button>  
+                   
                 </form>
             </div>
-            <div >
-                <ul id="lista">
-               
-                   
-                </ul>
-             
-            </div>
+            
         </div>
      </section>
+
      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
      <script src="./main.js"></script>
 </body>
 </html>
